@@ -1,0 +1,19 @@
+这个utils目录包含了多个Python脚本，每个脚本都有特定的功能:
+callbacks.py:包含在训练过程中被调用的回调函数。
+autobatch.py:用于实现批处理优化，以提高训练或推理的效率
+benchmarks.py: 包含性能基准测试相关的函数。
+checks.py: 用于项目中的各种检查，如参数验证或环境检査。
+dist.py: 涉及分布式计算相关的工具。
+downloads.py: 包含下载数据或模型等资源的脚本。
+errors.py: 定义错误处理相关的类和函数。
+files.py: 包含文件操作相关的工具函数。
+instance.py: 包含实例化对象或模型的工具,
+loss.py: 定义损失函数。
+metrics.py: 包含评估模型性能的指标计算函数。
+ops.py: 包含自定义操作，如特殊的数学运算或数据转换。
+patches.py:用于实现修改或补丁应用的工具。
+plotting.py: 包含数据可视化相关的绘图工具。
+ta1.py:一些损失函数的功能应用
+torch_utils.py:提供PyTorch相关的工具和辅助函数，包括GFLOPs的计算。
+triton.py: 可能与NVIDlA Triton Inference Server集成相关.
+tuner.py: 包含模型或算法调优相关的工具。
