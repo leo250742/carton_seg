@@ -35,4 +35,5 @@ You can divide the data . Structure of the partitioned data set as
         |-test
         |-vain
 ```
-
+### Train
+Once the dataset is prepared, run the train.py file in the main directory to start training, and select the hyperparameters that are suitable for your device.
