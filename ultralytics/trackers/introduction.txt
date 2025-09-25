@@ -1,0 +1,7 @@
+trackers文件夹包含了实现目标跟踪功能的脚本和模块,
+init_·py: 指示该文件夹是一个Python包。
+basetrack.py: 包含跟踪器的基础类或方法。
+bot sort.py: 实现了SORT算法(Simple Online and Realtime Tracking)的版本。
+byte_tracker.py: 是一个基于深度学习的跟踪器使用字节为单位跟踪目标。
+track.py: 包含跟踪单个或多个目标的具体逻辑。
+README.md: 提供该目录内容和用法的说明。
