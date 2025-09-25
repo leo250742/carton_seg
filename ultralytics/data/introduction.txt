@@ -1,0 +1,10 @@
+在data/scripts文件夹中，包括了一系列脚本和Python文件:
+download weights.sh:用来下载预训练权重的脚本,
+get_coco.sh, get_coco128.sh,get imagenet.sh: 用于下载 COCO数据集只完整版、128张图片版以及ImageNet数据集的脚本,
+在data文件夹中，包括:
+annotator.py:用于数据注释的工具。
+augment.py: 数据增强相关的函数或工具。
+base.py,build.py,converter.py:包含数据处理的基础类或函数、构建数据集的脚本以及数据格式转换工具。
+dataset.py:数据集加载和处理的相关功能。
+loaders.py: 定义加载数据的方法。
+utils.py: 各种数据处理相关的通用工具函数。
