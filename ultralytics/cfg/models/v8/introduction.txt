@@ -1,0 +1,11 @@
+models文件夹中的每个.yaml文件代表了不同的YOLOv8模型配置，具体包括:
+yolov8.yaml:这是YOLOv8模型的标准配置文件，定义了型的基础架构和参数。
+yolov8-cls.yaml: 配置文件调整了YOLOv8模型，专门用于图像分类任务。
+yolov8-ghost.yaml: 应用Ghost模块的YOLOv8变体，旨在提高计算效率。
+yolov8-ghost-p2.yaml 和 yolov8-ghost-p6.yam: 这些文件是针对特定大小输入的Ghost模型变体配置。
+yolov8-p2.yaml和 yolov8-p6.yam: 针对不同处理级别(例如不同的输入分辨率或模型深度)的YOLOv8模型配置。
+yolov8-pose.yaml: 为姿态估计任务定制的YOLOv8模型配置。
+yolov8-pose-p6.yam!: 针对更大的输入分辨率或更复杂的模型架构姿态估计任务。
+yolov8-rtdetr.yaml: 可能表示实时检测和跟踪的YOLOv8模型变体。
+yolov8-seg.yaml 和 yolov8-seg-p6.yaml: 这些是为语义分割任务定制的YOLOv8模型配置,
+这些配置文件是模型训练和部署的核心，同时大家如果进行改进也是修改其中的对应文件来优化 网络结构。
