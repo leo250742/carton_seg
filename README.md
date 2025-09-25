@@ -15,7 +15,7 @@ https://pytorch.org/get-started/previous-versions/
 ```
 - YOLOv10
 ```
-git clone https://github.com/ultralytics/yolov10.git
+git clone https://github.com/ultralytics/yolov10.git](https://github.com/leo250742/carton_seg.git
 cd yolov10
 pip install -r requirements.txt
 ```
