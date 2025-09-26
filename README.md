@@ -16,11 +16,7 @@ https://pytorch.org/get-started/previous-versions/
 Because our data is protected by privacy, it cannot be made public, but we can say something about our data structure; You can reproduce with your own data set according to the following structure:
 
 The data format is YOLO format. You can annotate the data with LabelImg software and convert it to YOLO format. The final data set is structured as follows, where img is used to store image data sets, txt is used to store image datasets in YOLO format
-```
-|- carton
-    |- img
-    |- txt
-```
+
 ### Data preprocessing
 
 You can divide the data . Structure of the partitioned data set as
@@ -30,7 +26,7 @@ You can divide the data . Structure of the partitioned data set as
         |-train
         |-test
         |-vain
-    |- txt
+    |- labels
         |-train
         |-test
         |-vain
